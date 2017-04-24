@@ -1,4 +1,7 @@
-# test coverage for  [libxmljs (v0.18.4)](https://github.com/libxmljs/libxmljs)  [![npm package](https://img.shields.io/npm/v/npmtest-libxmljs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-libxmljs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-libxmljs.svg)](https://travis-ci.org/npmtest/node-npmtest-libxmljs)
+# npmtest-libxmljs
+
+#### basic test coverage for  [libxmljs (v0.18.4)](https://github.com/libxmljs/libxmljs)  [![npm package](https://img.shields.io/npm/v/npmtest-libxmljs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-libxmljs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-libxmljs.svg)](https://travis-ci.org/npmtest/node-npmtest-libxmljs)
+
 #### libxml bindings for v8 javascript engine
 
 [![NPM](https://nodei.co/npm/libxmljs.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/libxmljs)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-libxmljs/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-libxmljs/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-libxmljs/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-libxmljs/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-libxmljs/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-libxmljs/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-libxmljs/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-libxmljs/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-libxmljs/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-libxmljs/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-libxmljs/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-libxmljs/build/coverage.html/index.html)
 
@@ -91,7 +94,8 @@
         "install": "node-pre-gyp install --fallback-to-build --loglevel http",
         "test": "node --expose_gc ./node_modules/.bin/nodeunit test"
     },
-    "version": "0.18.4"
+    "version": "0.18.4",
+    "bin": {}
 }
 ```
 
